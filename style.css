@@ -121,3 +121,19 @@ h3 {
     text-align: justify;
     text-justify: inter-word;
 }
+
+#footer {
+    margin-left: 1%;
+    font-weight: bolder;
+}
+
+.about-pictures {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+    margin-left: 3%;
+    border: 1px solid grey;
+}

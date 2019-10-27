@@ -95,7 +95,7 @@
                     <div class="container">
                         <h3>Nasze usługi</h3>
                     </div>
-                    <hr />>
+                    <hr />
                     <div class="col-lg-12">
 
                         <div class="container my-4">
@@ -324,7 +324,6 @@
                         <div class="section-image-container col-lg-6">
                             <img class="img-fluid" src="./img/medical-vehicles.png" alt="medical-vehicles">
                         </div>
-                        <br />
                         <div class="section-image-container col-lg-6">
                             <img class="img-fluid" src="./img/lunchbox-car.png" alt="medical-vehicles">
                         </div>
@@ -340,8 +339,9 @@
                     <div class="container">
                         <h3>O nas</h3>
                     </div>
+                    <hr />
                     <div class="col-lg-12">
-                        <div class="section-image-container col-lg-6">
+                        <div class="section-image-container col-lg-5">
                             <div class="aboutDiv">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget erat sit
                                     amet
@@ -365,12 +365,17 @@
                             </div>
 
                         </div>
-                        <div class="section-image-container col-lg-6">
-
+                        <div class="section-image-container col-lg-7">
+                            <div class="about-pictures" style="background-image: url('./img/low-cost.jpg');">
+                            </div>
+                            <div class="about-pictures" style="background-image: url('./img/on-time.jpg');">
+                            </div>
+                            <div class="about-pictures" style="background-image: url('./img/reliable-partner.jpg');">
+                            </div>
+                            <div class="about-pictures" style="background-image: url('./img/all-in-one.jpg');">
+                            </div>
                         </div>
                     </div>
-
-                    <hr />
 
                     <div class="clear-div"></div>
 
@@ -385,21 +390,29 @@
 
                     <div class="col-lg-12">
                         <div class="section-image-container col-lg-6">
-                            <img src="./img/contact_us.jpg" alt="medical-vehicles">
+                            <img class="img-fluid" src="./img/contact_us.jpg" alt="contact-us">
                         </div>
 
-                        <div class="section-image-container col-lg-6">
-                            <div id="contactDiv">
-                                <h4>Skontakuj się z nami: </h4>
-                                <p>
-                                    <i class="demo-icon icon-address"></i>ul. Warszawska 1 Kraków 10-100
-                                </p>
-                                <p>
-                                    <i class="demo-icon icon-phone"></i>+48 123 456 789
-                                </p>
-                                <p>
-                                    <i class="demo-icon icon-mail"></i><a href="mailto:">google@gmail.com</a>
-                                </p>
+                        <div class="section-image-container col-lg-6" style="top: 60px;">
+                            <div class="col-lg-6">
+                                <div id="contactDiv">
+                                    <h4>Skontakuj się z nami: </h4>
+                                    <div class="contact-icon">
+                                        <p>
+                                            <i class="demo-icon icon-address"></i>ul. Warszawska 1 Kraków 10-100
+                                        </p>
+                                    </div>
+                                    <div class="contact-icon">
+                                        <p>
+                                            <i class="demo-icon icon-phone"></i>+48 123 456 789
+                                        </p>
+                                    </div>
+                                    <div class="contact-icon">
+                                        <p>
+                                            <i class="demo-icon icon-mail"></i><a href="mailto:">google@gmail.com</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -410,6 +423,19 @@
                     <hr />
                 </section>
             </div>
+
+            <!-- Fleet 1 modal -->
+
+            <div id="fleet1modal" class="modal">
+                <span class="close">&times;</span>
+
+                <img class="modal-content" id="fleet1image">
+
+                <div id="fleet1caption"></div>
+            </div>
+
+            <!-- Fleet 1 modal -->
+
         </main>
         <!--Main layout-->
 
@@ -417,7 +443,9 @@
 
         <!--Footer-->
         <footer>
-            <p>&copy; 2019 IGNADIA<p>
+            <div id="footer">
+                <p>&copy; 2019 IGNADIA<p>
+            </div>
         </footer>
         <!--Footer-->
     </body>
