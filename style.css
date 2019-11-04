@@ -20,6 +20,12 @@ body {
     .navbar-dark.navbar-nav.nav-link {
         color: #212529;
     }
+    #contactDiv {
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 80px !important;
+        margin-left: 80px;
+    }
 }
 
 #topLeftLogo {
@@ -103,7 +109,8 @@ hr {
 
 #contactDiv {
     float: left;
-    margin-top: 10%;
+    margin-top: 4%;
+    margin-bottom: 8%;
 }
 
 h3, h4 {
@@ -136,4 +143,14 @@ h3 {
     float: left;
     margin-left: 3%;
     border: 1px solid grey;
+}
+
+#about-pictures {
+    margin-top: 4%;
+}
+
+.flex-conintaner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
