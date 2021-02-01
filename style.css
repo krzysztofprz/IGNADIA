@@ -1,5 +1,5 @@
 body {
-    background-image: url("./img/congruent_pentagon.png");
+    /* background-image: url("./img/congruent_pentagon.png"); */
 }
 
 @media screen and (max-width: 992px) {
@@ -75,11 +75,16 @@ ul> :first-child {
     margin-left: 0px;
 }
 
+#first-container {
+    margin-top: 0%;
+}
+
 .container {
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
+    margin-top: 7%;
 }
 
 .section-image-container {
@@ -114,7 +119,7 @@ hr {
 }
 
 h3, h4 {
-    font-family: Palatino Linotype;
+    font-family: Montserrat, sans-serif;
     color: #333;
 }
 
