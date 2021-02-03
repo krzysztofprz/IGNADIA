@@ -120,7 +120,8 @@ hr {
 
 h3, h4 {
     font-family: Montserrat, sans-serif;
-    color: #333;
+    /* color: #212529; */
+    color: #999c9f;
 }
 
 h3 {
