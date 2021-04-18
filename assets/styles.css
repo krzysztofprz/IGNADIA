@@ -37,7 +37,7 @@ h2 {
 }
 
 main section:not(:first-child):not(:last-child) {
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-bottom: 8rem;
 }
 
@@ -52,7 +52,7 @@ li a {
     background-size: cover;
     background-position: center;
     padding-top: 30px;
-    min-height: 1010px;
+    min-height: 850px;
 }
 
 .ctn div {
