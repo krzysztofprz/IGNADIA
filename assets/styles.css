@@ -30,15 +30,20 @@ h1 {
     font-size: 3rem;
 }
 
-li a {
-    font-family: Ralewat, sans-serif;
-    font-size: 1.3rem;
-}
-
 h2 {
     border-bottom: 5px rebeccapurple solid;
     font-size: 3rem;
     font-style: italic;
+}
+
+main section:not(:first-child):not(:last-child) {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+li a {
+    font-family: Ralewat, sans-serif;
+    font-size: 1.3rem;
 }
 
 .ctn {
@@ -47,7 +52,7 @@ h2 {
     background-size: cover;
     background-position: center;
     padding-top: 30px;
-    min-height: 850px;
+    min-height: 1010px;
 }
 
 .ctn div {
