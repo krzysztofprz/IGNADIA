@@ -170,8 +170,6 @@ li a {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1087px) {
-    #features {
-        /* provide */
-    }
-}
+/* @media only screen and (max-width: 1087px) {
+    #features { }
+} */
